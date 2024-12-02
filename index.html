@@ -3,10 +3,83 @@
   <head>
     <title>Jonah George</title>
 
-    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <style type="text/tailwindcss">
+      body {
+        @apply font-serif;
+        @apply bg-blue-50 border-t-8 border-blue-800;
+      }
+
+      section {
+        @apply mb-12;
+        @apply container mx-auto max-w-screen-md;
+      }
+
+      h2 {
+        @apply text-xl font-bold;
+        @apply mb-5;
+      }
+
+      p {
+        @apply mb-3;
+      }
+
+      a {
+        @apply text-blue-800;
+        @apply underline underline-offset-8;
+        @apply decoration-black decoration-dotted;
+        @apply hover:text-blue-600;
+      }
+    </style>
   </head>
  
   <body>
-    <h1>Not a whole lot here, yet.</h1>
+    <section class="mt-5 colums-2">
+      <div>
+        <h2>
+          👋 I'm Jonah, a software engineer from Portland, Oregon.
+        </h2>
+
+        <p>
+          My primary role is founding engineer at <a href="https://lightlabs.com">Light Labs</a> 
+          where I've been building out the initial platform.
+        </p>
+
+        <p>
+          I'm also am a technical adivsor at <a href="https://funcard.io">Funcard</a>. 
+          I stepped into this role in 2020 to provide business continuity and have since built out a self-sustaining team.
+        </p>
+      </section>
+
+      <section>
+        <h2>Need to get in touch?</h2>
+
+        <ul>
+          <li><a href="https://github.com/jonahgeorge">Github</a></li>
+          <li><a href="https://bsky.app/profile/jonahgeorge.com">Bluesky</a></li>
+          <li><a href="https://www.linkedin.com/in/jonahgeorge/">LinkedIn</a></li>
+        </ul>
+      </div>
+    </section>
+
+      <section>
+        <h2>An incomplete list of random things I'm somewhat proud of:</h2>
+
+        <ul>
+          <li>
+            <a href="https://github.com/jonahgeorge/jonahgeorge/blob/main/posts/Discovering%20&%20reporting%20secrets%20bundled%20in%20an%20Electron%20app.md">
+              Discovering & reporting secrets bundled in an Electron app (2022)
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/jonahgeorge/jaeger-client-php">jonahgeorge/jaeger-client-php (2018)</a>
+          </li>
+        </ul>
+      </section>
+
+    </div>
   </body>
 </html>

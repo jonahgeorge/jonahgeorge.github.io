@@ -1,0 +1,22 @@
+baseURL = 'https://jonahgeorge.com'
+languageCode = 'en-us'
+title = 'Jonah George'
+
+# https://themes.gohugo.io/themes/hugo-theme-yinyang/
+theme = "yinyang"
+
+[params]
+headTitle = "Jonah George"
+mainSections = ["posts"]
+
+[[params.socials]]
+name = "Github"
+link = "https://github.com/jonahgeorge"
+
+[[params.socials]]
+name = "Bluesky"
+link = "https://bsky.app/profile/jonahgeorge.com"
+
+[[params.socials]]
+name = "LinkedIn"
+link = "https://linkedin.com/jonahgeorge"

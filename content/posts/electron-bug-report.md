@@ -1,5 +1,5 @@
 ---
-date: 2022-11-20
+date: 2022-11-21
 title: Discovering & reporting secrets bundled in an Electron app
 ---
 

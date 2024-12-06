@@ -68,6 +68,6 @@ Finally, I decided to just forward the full reproduction details over email.
 
 A few days, later I received this kind email & noticed that recent builds had been pulled from the various download locations:
 
-![CleanShot 2024-03-24 at 13 01 44](https://github.com/jonahgeorge/jonahgeorge/assets/2058205/cdaf7187-899a-4dbd-9c2f-5a1c3979bc27)
+![Bug Report Email](/posts/images/bug-report-email.png)
 
 Those drinks never did happen, but happy to have made some friends over there 😂

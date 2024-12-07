@@ -21,24 +21,20 @@ brew install pytorch
 bundle config build.torch-rb --with-torch-dir=$(brew --prefix)/Cellar/pytorch/2.5.1_1
 ```
 
-Configure a lightweight Gemfile and install dependencies:
-
-```rb
-# Gemfile
-source "https://rubygems.org"
-
-gem "torch-rb"
-gem "transformers-rb"
-```
-
-```sh
-bundle install
-```
-
 ## Example script
 
 ```rb
 # spamcheck.rb
+
+require 'bundler/inline'
+
+gemfile do
+  source 'https://rubygems.org'
+
+  gem "torch-rb"
+  gem "transformers-rb"
+end
+
 require "torch"
 require "transformers"
 

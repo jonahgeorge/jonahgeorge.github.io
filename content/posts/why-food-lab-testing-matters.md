@@ -1,5 +1,5 @@
 ---
-date: 2025-10-30
+date: 2024-12-03
 title: Why Food Lab Testing Matters: Ensuring Safety, Quality and Transparency
 ---
 

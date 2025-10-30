@@ -1,6 +1,6 @@
 ---
 date: 2024-12-03
-title: Why Food Lab Testing Matters: Ensuring Safety, Quality and Transparency
+title: Why Food Lab Testing Matters - Ensuring Safety, Quality and Transparency
 ---
 
 > [!NOTE]
